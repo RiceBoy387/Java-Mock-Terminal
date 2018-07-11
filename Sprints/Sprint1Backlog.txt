@@ -1,0 +1,53 @@
+//Sprint 1 Backlog.
+June 15 to June 21
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) as a user my input should be parsed through an interpreter
+b) as a user the interpreter should determine the type of command I enter and execute appropriately
+c) as a user I should be able to mkdir to make one or more directories all at once
+d) as a user I should be able to use cd to change the current directory
+e) as a user I should be able to use the ls command to list all the files in the current directory or a directory of my choice
+f) as a user I should be able to use pwd to see the current working directory
+g) as a user I should be able to use the pushd command to add a directory onto the directory stack so I can access it later
+
+
+Specific tasks to be accomplished:
+a-1. (CRC Cards) Update CRC cards
+a-2. (JShell) Modify code from a1 to parse for new commands
+a-3. (JShell) Add appropriate returns for incorrect parameters on new commands
+b-1. (JShell) Call the appropriate commands to execute
+c-1. (File) Write the base code for the File class
+c-2. (Directory) Write the base code for the Directory class
+c-3. (Directory) Implement ability to contain other Directory and File objects and ability to add them in
+c-4. (PathCheck) Implement class that all commands inherit from to check if a given path is relative or absolute
+c-5. (PathCheck) Implement ability to check if a given path already exists or not
+c-6. (PathCheck) Implement ability to generate a full path given a relative path.
+c-7. (Mkdir) Complete code to parse directory that must be made
+c-8. (Mkdir) Make sure the directory to be made does not already exist, return stderr if it does
+c-9. (Mkdir) Complete code to make the new directory
+d-1. (Cd) Complete code to check if directory exists
+d-2. (Cd) Change to the desired directory
+e-1. (Ls) Write code to obtain list of files in the working directory
+e-2. (Ls) Write code to obtain list of files in a given directory (not working directory)
+e-3. (Ls) Print the list of the files that was obtained
+f-1. (Pwd) Write base code for Pwd class
+f-2. (JShell) Update Pwd object on change of directory
+f-3. (Pwd) Write code to print current working directory
+g-1. (Stack) Add data type with stack functionality (LIFO)
+g-2. (Pushd) Implement push of current working directory into stack
+g-3. (Pushd) Implement change to user desired directory
+
+These tasks are assigned as follows:
+
+User: lynjust2
+Tasks: a-1, a-2, a-3, b-1, f-2, g-3
+
+User: raminira
+Tasks: a-1, c-4, c-6, c-7, c-8, c-9, g-1, g-2
+
+User: desaojo3
+Tasks: a-1, c-1, c-2, c-3, f-1, f-3
+
+User: kanaga60
+Tasks: a-1, c-5, d-1, d-2, e-1, e-2, e-3

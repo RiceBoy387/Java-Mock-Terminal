@@ -1,0 +1,53 @@
+//Sprint 3 Backlog.
+June 29 to July 2
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a)As the customer I should be able to use the echo command to either output a string to the standard output or be able to use '>' after the command to make a file with given string in it
+b)As the customer I should be able to use the popd command to access the most recent directory i pushed onto the directory stack	
+c)As the customer the interpreter should determine the type of command I enter and execute appropriately
+d)As the customer I should be able to use the man command to see how to use the other commands or to see what their purpose is	
+	
+
+Specific tasks to be accomplished:
+a-1 (EchoCreate) Implement ability to create a new text file
+a-2 (EchoCreate) Implement ability to write to the given text file
+a-3 (EchoCreate) Implement ability to delete a prior a text file if it has the same name as the new one to be created
+a-4 (EchoAppend) Implement ability to locate a given text file if it's already there
+a-5 (EchoAppend) Implement ability to create a new text file if the given one doesnt exist
+a-6 (EchoAppend) Implement ability to write to the end of a given text file
+b-1 (PushAndPopd) Implement ability to change to the directory that was popped
+c-1 (ParseCommand) Implement ability to use Popd
+c-2 (ParseCommand) Implement ability to use Pushd
+c-3 (ParseCommand) Implement ability to use Cat
+c-4 (ParseCommand) Implement ability to use Echo
+c-5 (ParseCommand) Implement ability to use Man
+c-6 (Cat) Test to ensure Class works as intended
+c-7 (ChangeDirectory) Test to ensure Class works as intended
+c-8 (Echo) Test to ensure Class works as intended
+c-9 (EchoCreate) Test to ensure Class works as intended
+c-10 (EchoAppend) Test to ensure Class works as intended
+c-11 (Find) Test to ensure Class works as intended
+c-12 (History) Test to ensure Class works as intended
+c-13 (Ls) Test to ensure Class works as intended
+c-14 (MakeDirectory) Test to ensure Class works as intended
+c-15 (PushAndPopd) Test to ensure Push works as intended
+c-16 (PushAndPopd) Test to ensure Pop works as intended
+c-17 (Pwd) Test to ensure Class works as intended
+c-18 (Tree) Test to ensure Class works as intended
+c-19 (Man) Test to ensure Class works as intended
+d-1 (Man) Create Man entry for all commands
+
+These tasks are assigned as follows:
+
+User: lynjust2
+Tasks: d-1, c-5, c-8, c-19
+
+User: raminira
+Tasks: c-11, c-14, c15, c-18
+
+User: desaojo3
+Tasks: a-1, a-2, a-3, a-4, a-5, a-6, b-1, c-4, c-9, c-10, c-16, c-17
+
+User: kanaga60
+Tasks: c-6, c-7, c-12, c-13

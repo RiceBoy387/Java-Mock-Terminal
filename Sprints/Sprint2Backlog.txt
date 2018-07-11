@@ -1,0 +1,68 @@
+//Sprint 2 Backlog.
+June 22 to June 28
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As the customer I should be able to use the pushd command to store the current working directory I'm in to a stack to be accessed later and change to a given directory
+b) As the customer I should be able to use the popd command to access the most recent directory i pushed onto the directory stack	
+c)As the customer I should be able to use the history command to see all the past commands I've executed and i should be able to specify how many items in history i want to see
+d)As the customer I should be able to use the cat command to see the contents of one or more files
+e)As the customer I should be able to use the echo command to either output a string to the standard output or be able to use '>' after the command to make a file with given string in it or i should be able to use '>>' after the command to append the string to the end of an existing file
+f) As the customer I should be able to use mkdir to make one or more directories all at once
+g)As the customer the interpreter should determine the type of command I enter and execute appropriately
+	
+
+Specific tasks to be accomplished:
+a-1. (PushAndPopd) Implement push of current working directory into stack
+a-2. (PushAndPopd) Implement change of directory to the given directory
+b-1 (PushAndPopd) Implement ability to change to the directory that was popped
+c-1 (History) Implement ability to be able to store all previous commands used
+c-2 (History) Implement ability to be able to output a user specified amount of previous commands
+c-3 (History) Implement ability to error check and avoid crash if user inputs a number that is too high
+d-1 (Cat) Implement ability to be able to locate a given file
+d-2 (Cat) Implement ability to read the given file
+d-3 (Cat) Implement ability to output contents of the given file
+e-1 (JShell) Implement ability to be able to differentiate between the 3 varieties of the Echo Command
+e-2 (Echo) Implement ability to output a given string to standard output directly
+e-3 (EchoCreate) Implement ability to create a new text file
+e-4 (EchoCreate) Implement ability to write to the given text file
+e-5 (EchoCreate) Implement ability to delete a prior a text file if it has the same name as the new one to be created
+e-6 (EchoAppend) Implement ability to locate a given text file if it's already there
+e-7 (EchoAppend) Implement ability to create a new text file if the given one doesnt exist
+e-8 (EchoAppend) Implement ability to write to the end of a given text file
+f-1 (Mkdir) Ensure the file to be created doesnt already exist output to stderr if it does
+g-1 (FileSystem) Implement File System to store the wanted Directories
+g-2 (FileSystem) Implement abilitiy to change the working Directory
+g-3 (FileSystem) Implement abilitiy to returnt the root and current working directory
+g-4 (JShell) Implement ability to use Mkdir
+g-5 (JShell) Implement ability to use Ls
+g-6 (JShell) Implement ability to use ChangeDirectory
+g-7 (JShell) Implement ability to use Popd
+g-8 (JShell) Implement ability to use Pushd
+g-9 (JShell) Implement ability to use Cat
+g-10 (JShell) Implement ability to use Pwd
+g-11 (JShell) Implement ability to use History
+g-12 (JShell) Implement ability to use Echo
+g-14 (JShell) Implement ability to use Find
+g-15 (JShell) Implement ability to use Tree
+
+
+h-1(find) Implement ability to find files given a single or multiple paths and name
+h-2(find) Implement ability to find directories given a single or multiple paths and name
+i-1(tree) Implement ability to print a tree format of the filesystem 
+
+
+These tasks are assigned as follows:
+
+User: lynjust2
+Tasks: e-1, e-2, g-8, g-5, g-6, g-7
+
+User: raminira
+Tasks: a-1, a-2, f-1, i-1, g-1, g-2, h-1, h-2, g-3, g-4, g-14, g-15
+
+User: desaojo3
+Tasks: e-3, e-4, e-5, e-6, e-7, e-8, b-1 
+
+User: kanaga60
+Tasks:c-1, c-2, c-3, d-1, d-2, d-3, g-6, g-8  
+
