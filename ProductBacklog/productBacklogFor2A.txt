@@ -1,0 +1,31 @@
+As the customer I should be repeatedly prompted to enter a command		(0.25 Hour)
+
+As the customer my command should be parsed through an interpreter		(0.5 Hour)
+
+As the customer the interpreter should determine the type of command I enter and execute appropriately		(0.5 Hours)
+
+As the customer I should be able to use mkdir to make one or more directories all at once		(1 Day)
+
+As the customer I should  be able to use the cd command to change the current directory to any directory of my choosing either it be in the current folder or else where		(1 Day)
+
+As the customer I should be able to use the ls command to list all files in the current directory or the files in the directories of my choosing		(2 Days)
+
+As the customer I should be able to use pwd to see the current directory that I am in		(1 Day)
+
+As the customer I should be able to use the pushd command to store the current working directory I'm in to a stack to be accessed later and change to a given directory		(1 Day)
+  
+As the customer I should be able to use the popd command to access the most recent directory i pushed onto the directory stack		(1 Day)
+
+As the customer I should be able to use the history command to see all the past commands I've executed and i should be able to specify how many items in history i want to see		(1 Day)
+
+As the customer I should be able to use the cat command to see the contents of one or more files		(2 Days)
+
+As the customer I should be able to use the echo command to either output a string to the standard output or be able to use '>' after the command to make a file with given string in it or i should be able to use '>>' after the command to append the string to the end of an existing file		(3 Days)
+
+As the customer I should be able to use the man command to see how to use the other commands or to see what their purpose is		(3 Days)
+
+As the customer I should be able to use the exit command to get out of the shell		(0.5 Hours)
+
+As the customer I should be able to use the find command to find specific files and/or directories at given paths (1 day)
+
+As the customer I should be able to use the tree command to display the file system as a tree (3 hours)
